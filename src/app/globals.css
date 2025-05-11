@@ -24,3 +24,73 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Light mode styles */
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.light-mode .container {
+  background-color: #f9f9f9;
+  color: #000000;
+  border: 1px solid #ddd;
+}
+
+.light-mode .table {
+  background-color: #f9f9f9;
+  color: #000000;
+  border: 1px solid #ddd;
+}
+
+.light-mode .table th {
+  background-color: #f1f1f1;
+  color: #000000;
+}
+
+.light-mode .table td {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Light mode styles for search bar */
+.light-mode .search-bar input {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ddd;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .container {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #333;
+}
+
+.dark-mode .table {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #333;
+}
+
+.dark-mode .table th {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dark-mode .table td {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* Dark mode styles for search bar */
+.dark-mode .search-bar input {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #555;
+}
